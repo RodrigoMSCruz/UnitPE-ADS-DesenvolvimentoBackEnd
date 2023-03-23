@@ -1,6 +1,6 @@
-package com.example.CRUD.Repository;
+package com.example.CRUD.Repositories;
 
-import com.example.CRUD.Model.JournalEntry;
+import com.example.CRUD.Models.JournalEntry;
 
 import java.util.List;
 

@@ -1,11 +1,17 @@
-package com.example.CRUD.Model;
+package com.example.CRUD.Models;
+
+
+
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
 
+import jakarta.persistence.GeneratedValue;
+
 @EntityScan
 public class JournalEntry {
     @Id
+    @GeneratedValue
     private int id;
     private String title;
     private String category;
